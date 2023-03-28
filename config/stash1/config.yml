@@ -1,0 +1,30 @@
+calculate_md5: false
+dangerous_allow_public_without_auth: "false"
+database: /root/.stash/stash-go.sqlite
+generated: /root/.stash/generated
+host: 0.0.0.0
+jwt_secret_key: 03623aab9ec5b35251baf778d8cedbcfa10ac80bf3c8fe317b8bc8c3053cfcb9
+nobrowser: false
+notifications_enabled: true
+parallel_tasks: 1
+plugins_path: /root/.stash/plugins
+port: 9999
+preview_audio: true
+preview_exclude_end: "0"
+preview_exclude_start: "0"
+preview_segment_duration: 0.75
+preview_segments: 12
+scrapers_path: /root/.stash/scrapers
+security_tripwire_accessed_from_public_internet: ""
+session_store_key: 19a50d43ed762eb8bf027655ef85d9d5aff3231998e587c46c80badb871165f1
+show_one_time_moved_notification: false
+sound_on_preview: false
+stash:
+- path: /media
+  excludevideo: false
+  excludeimage: false
+theme_color: '#202b33'
+ui:
+  last_note_seen: 20220906
+video_file_naming_algorithm: OSHASH
+write_image_thumbnails: true
